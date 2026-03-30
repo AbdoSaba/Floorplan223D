@@ -152,5 +152,5 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 
 <p align="center">
-  <img src="images/Demo.gif" width="79%" />
+  <img src="images/Demo.gif" width="90%" />
 </p>

@@ -3,7 +3,7 @@ Floorplan2Mesh-YOLOv8: 2D to 3D Floorplan Reconstruction 🏠🏗️
 An end-to-end pipeline that transforms 2D floorplan images into interactive 3D models. This project leverages YOLOv8L for high-precision architectural element detection and Trimesh/PyVista for procedural 3D mesh generation.
 
 <p align="center">
-  <img src="images/test.png" width="45%" />
+  <img src="images/test.png" width="60%" />
 </p>
 
 ## 🚀 Key Features

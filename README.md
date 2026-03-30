@@ -150,7 +150,7 @@ This project is licensed under the MIT License - see LICENSE file for details.
 - CubiCasa5k dataset by Roboflow
 - Trimesh & PyVista communities
 
-- 
+
 <p align="center">
-  <img src="images/test.gif" width="45%" />
+  <img src="images/Demo.gif" width="79%" />
 </p>

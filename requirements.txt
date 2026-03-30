@@ -1,0 +1,8 @@
+ultralytics
+onnxruntime
+opencv-python
+numpy
+pyvista
+trimesh
+roboflow
+rtree

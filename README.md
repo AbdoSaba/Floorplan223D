@@ -1,4 +1,4 @@
-Floorplan2Mesh-YOLOv8: 2D to 3D Floorplan Reconstruction 🏠🏗️
+Floorplan2Mesh-YOLOv8: 2D to 3D Floorplan Reconstruction
 
 An end-to-end pipeline that transforms 2D floorplan images into interactive 3D models. This project leverages YOLOv8L for high-precision architectural element detection and Trimesh/PyVista for procedural 3D mesh generation.
 
@@ -6,7 +6,7 @@ An end-to-end pipeline that transforms 2D floorplan images into interactive 3D m
   <img src="images/test.png" width="100%" />
 </p>
 
-## 🚀 Key Features
+##  Key Features
 
 - **Deep Learning Detection**: Uses a custom-trained YOLOv8L model (27M parameters) to identify walls, doors, and windows.
 - **Optimized Inference**: Powered by ONNX Runtime for fast, hardware-agnostic model execution.
@@ -14,7 +14,7 @@ An end-to-end pipeline that transforms 2D floorplan images into interactive 3D m
 - **Interactive Visualization**: High-quality 3D rendering with edge highlighting using PyVista.
 - **Automated Workflow**: Integrated with Roboflow for seamless dataset management.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Floorplan223D/
@@ -26,7 +26,7 @@ Floorplan223D/
 └── Readme.md                 # Documentation
 ```
 
-## 🛠️ Technical Specifications
+##  Technical Specifications
 
 - **Architecture**: YOLOv8L (Large)
 - **Input Resolution**: 616x616
@@ -34,7 +34,7 @@ Floorplan223D/
 - **3D Engine**: Trimesh (Mesh processing) & PyVista (Visualization)
 - **Export Format**: .obj (Compatible with Blender, Unity, and 3ds Max)
 
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -74,7 +74,7 @@ The script will prompt you for:
 - **Wall Height**: Height of walls in millimeters (default: 450)
 - **Wall Thickness**: Thickness of walls in millimeters (default: 50)
 
-## 📊 Training Pipeline
+##  Training Pipeline
 
 The model was fine-tuned on the CubiCasa5k dataset using:
 
@@ -95,7 +95,7 @@ To train your own model:
 4. The trained model will be saved in the `Floorplan_Project/YOLOv8L_CubiCasa/` directory
 5. Export to ONNX format as shown in the notebook
 
-## 🖼️ Results & Visualization
+##  Results & Visualization
 
 The system processes a 2D image, detects structural components, and extrudes them into a 3D space with real-world scale approximations.
 
@@ -114,7 +114,7 @@ The script generates an interactive 3D plot with:
 - Floor in dark gray (#404040)
 - ISO camera view for better perspective
 
-## 📋 Requirements
+##  Requirements
 
 See `requirements.txt` for all dependencies:
 - ultralytics (YOLOv8)
@@ -126,7 +126,7 @@ See `requirements.txt` for all dependencies:
 - roboflow (Dataset management)
 - rtree (Spatial indexing)
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Model Not Found
 - Ensure `weights/best.onnx` exists in the project directory
@@ -140,11 +140,11 @@ See `requirements.txt` for all dependencies:
 - Verify the image resolution and clarity
 - Adjust confidence threshold in `main.py` (CONF_THRESH)
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - YOLOv8 by Ultralytics
 - CubiCasa5k dataset by Roboflow
